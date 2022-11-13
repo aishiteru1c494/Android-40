@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.triplek.QuanLyPhongNet">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuanLyPhongNet"
+        tools:targetApi="31">
+        <activity
+            android:name=".Camera.Camera"
+            android:exported="false" />
+        <activity
+            android:name=".PC.PC"
+            android:exported="false" />
+        <activity
+            android:name=".Food.deleteFood"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Food.addFood"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Game.deleteGame"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Game.addGame"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NhanVien.deleteNhanVien"
+            android:exported="false" />
+        <activity
+            android:name=".NhanVien.addNhanVien"
+            android:exported="false" />
+
+        <activity
+            android:name=".Food.FoodView"
+            android:exported="false" />
+        <activity
+            android:name=".Game.GameView"
+            android:exported="false" />
+        <activity
+            android:name=".NhanVien.NhanVienview"
+            android:exported="false" />
+        <activity
+            android:name=".PC.TinhTrangMay"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

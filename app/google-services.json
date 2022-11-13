@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "603126469450",
+    "project_id": "quanlyphongnet-7a299",
+    "storage_bucket": "quanlyphongnet-7a299.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603126469450:android:3c3d2183658327b21127b3",
+        "android_client_info": {
+          "package_name": "com.triplek.QuanLyPhongNet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603126469450-eedi64m9pruj0enn1o7q54s5bjnji7pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTs-rM6LR046QB0q-O61qF7v7DeIBgv1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603126469450-eedi64m9pruj0enn1o7q54s5bjnji7pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

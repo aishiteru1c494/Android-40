@@ -1,0 +1,76 @@
+package com.triplek.QuanLyPhongNet.Game;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QuerySnapshot;
+import com.triplek.QuanLyPhongNet.NhanVien.deleteNhanVien;
+import com.triplek.QuanLyPhongNet.R;
+
+public class deleteGame extends AppCompatActivity {
+    Button btndelete;
+    EditText etxtTenGame;
+    FirebaseFirestore db;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_delete_game);
+        addControls();
+    }
+
+    private void addControls() {
+        db=FirebaseFirestore.getInstance();
+        btndelete=findViewById(R.id.btnDeleteGame);
+        etxtTenGame=findViewById(R.id.etxtXoaTenGame);
+
+        btndelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String TenGame=etxtTenGame.getText().toString();
+                etxtTenGame.setText("");
+                DeleteData(TenGame);
+            }
+        });
+    }
+
+    private void DeleteData(String tenGame) {
+        db.collection("game")
+                .whereEqualTo("TenGame",tenGame)
+                .get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                        if(task.isSuccessful()&&!task.getResult().isEmpty()){
+                            DocumentSnapshot documentSnapshot=task.getResult().getDocuments().get(0);
+                            String documentID=documentSnapshot.getId();
+                            db.collection("game")
+                                    .document(documentID).delete().addOnSuccessListener(new OnSuccessListener<Void>() {
+                                        @Override
+                                        public void onSuccess(Void unused) {
+                                            Toast.makeText(deleteGame.this,"Xoa Thanh Cong",Toast.LENGTH_SHORT).show();
+                                        }
+                                    }).addOnFailureListener(new OnFailureListener() {
+                                        @Override
+                                        public void onFailure(@NonNull Exception e) {
+                                            Toast.makeText(deleteGame.this,"Xoa Khong Thanh Cong",Toast.LENGTH_SHORT).show();
+                                        }
+                                    });
+                        }else{
+                            Toast.makeText(deleteGame.this,"Failed",Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+    }
+}

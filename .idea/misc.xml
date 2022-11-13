@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet/app/src/main/res/layout/activity_add_nhan_vien.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet/app/src/main/res/layout/activity_delete_nhan_vien.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet/app/src/main/res/layout/activity_login.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet/app/src/main/res/layout/activity_nhan_vien.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet/app/src/main/res/layout/nhanvien_item.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet/app/src/main/res/layout/pc_item.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/activity_add_food.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/activity_add_game.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/activity_add_nhan_vien.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/activity_camera.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/activity_delete_food.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/activity_delete_game.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/activity_delete_nhan_vien.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/activity_food.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/activity_game.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/activity_main.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/activity_nhan_vien.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/activity_pc.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/activity_tinh_trang_may.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/food_item.xml" value="0.29957264957264956" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/game_item.xml" value="0.3004273504273504" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/nhanvien_item.xml" value="0.31431159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/QuanLyPhongNet1/app/src/main/res/layout/pc_item.xml" value="0.31431159420289856" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.36614583333333334" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
